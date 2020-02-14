@@ -1,4 +1,4 @@
-module sigs.k8s.io/aws-iam-authenticator
+module github.com/kubernetes-sigs/aws-iam-authenticator
 
 go 1.12
 
@@ -17,6 +17,7 @@ require (
 	k8s.io/code-generator v0.0.0-20190419212335-ff26e7842f9d
 	k8s.io/component-base v0.0.0-20190612130303-4062e14deebe
 	k8s.io/sample-controller v0.0.0-20190425173525-f9c23632fb31
+	sigs.k8s.io/aws-iam-authenticator v0.5.0
 )
 
 replace (
